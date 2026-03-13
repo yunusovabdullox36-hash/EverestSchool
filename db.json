@@ -1,0 +1,89 @@
+{
+  "teachers": [
+    {
+      "id": "t-1",
+      "firstName": "Aziza",
+      "lastName": "Karimova",
+      "login": "teacher1",
+      "password": "12345",
+      "email": "aziza@group.uz",
+      "phone": "+998901112233",
+      "speciality": "English Grammar",
+      "groupLevel": "A2-B1"
+    }
+  ],
+  "students": [
+    {
+      "id": "s-1",
+      "teacherId": "t-1",
+      "firstName": "Ali",
+      "lastName": "Sodiqov",
+      "login": "student1",
+      "password": "12345",
+      "birthDate": "2010-04-14",
+      "age": 15,
+      "month": "April",
+      "level": "A2",
+      "totalScore": 0,
+      "completedTestIds": [],
+      "createdAt": "2026-03-04T10:00:00.000Z"
+    }
+  ],
+  "tests": [
+    {
+      "id": "seed-test-1",
+      "teacherId": "t-1",
+      "topic": "Present Simple",
+      "level": "A2",
+      "questionCount": 4,
+      "assignedTo": ["s-1"],
+      "createdAt": "2026-03-04T10:05:00.000Z",
+      "questions": [
+        {
+          "id": "seed-q-1",
+          "prompt": "(A2) Present Simple: choose the best answer for item 1.",
+          "options": [
+            "Present Simple point 1",
+            "Present Simple rule 1",
+            "Present Simple form 1",
+            "Present Simple usage 1"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "seed-q-2",
+          "prompt": "(A2) Present Simple: choose the best answer for item 2.",
+          "options": [
+            "Present Simple point 2",
+            "Present Simple rule 2",
+            "Present Simple form 2",
+            "Present Simple usage 2"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "seed-q-3",
+          "prompt": "(A2) Present Simple: choose the best answer for item 3.",
+          "options": [
+            "Present Simple point 3",
+            "Present Simple rule 3",
+            "Present Simple form 3",
+            "Present Simple usage 3"
+          ],
+          "correctIndex": 0
+        },
+        {
+          "id": "seed-q-4",
+          "prompt": "(A2) Present Simple: choose the best answer for item 4.",
+          "options": [
+            "Present Simple point 4",
+            "Present Simple rule 4",
+            "Present Simple form 4",
+            "Present Simple usage 4"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# EverstSchool
+# EverestSchool
 
 Teacher/Student platform built with React + Vite.
 

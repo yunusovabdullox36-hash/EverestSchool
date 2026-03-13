@@ -50,3 +50,9 @@ npm run build
 - Student:
   - login: `student1`
   - password: `12345`
+
+## Vercel: login va db.json
+
+- Dastur boshlang‘ich ma’lumotni `public/db.json` dan oladi (buildda `dist/db.json` bo‘lib chiqadi).
+- Vercelda deploy qilganda `/db.json` ishlaydi, shuning uchun teacher1/student1 login va parol ishlaydi.
+- Yangi o‘quvchilar va testlar brauzerda (localStorage) saqlanadi; `public/db.json` ni o‘zgartirsangiz, yangi deployda yangi boshlang‘ich ma’lumot yuklanadi.
